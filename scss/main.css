@@ -206,10 +206,10 @@ img {
   right: 0;
   font-size: 28px;
   background: #87e5cf;
+  color: #333;
   border-radius: 50%;
   height: 13px;
   width: 13px;
-  color: #333;
   line-height: 15px;
   padding: 1rem;
   transition: all 1s;
@@ -217,7 +217,7 @@ img {
 #home-c .process-icon {
   border-radius: 50%;
   background: #333;
-  color: #FFF;
+  color: #f4f4f4;
   padding: 2rem;
   width: 65px;
   height: 65px;

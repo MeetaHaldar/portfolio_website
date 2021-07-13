@@ -1,5 +1,5 @@
 @import 'config';
-@import'utilitiea';
+@import'utilities';
 
 // reset
 *{
@@ -158,10 +158,11 @@ a{
     right: 0;
     font-size: 28px;
     background:$main-color;
+    color: $dark-color;
     border-radius: 50%;
     height: 13px;
     width: 13px;
-    color: $dark-color;
+  
     line-height: 15px;
     padding: 1rem;
     transition:all 1s ;
@@ -171,7 +172,7 @@ a{
 &-icon{
     border-radius: 50%;
     background: $dark-color;
-    color: #FFF;
+    color: $light-color;
     padding: 2rem;
     width: 65px;
     height: 65px;
