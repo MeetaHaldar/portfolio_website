@@ -85,9 +85,23 @@ input[class^='btn-']:hover
     }
     
     }
+    .bottom-line{
+        height: 2px;
+        width: 3rem;
+        background: $main-color;
+        display: block;
+        margin-top: 0 auto 1rem auto;
+       position: absolute;
+       left: 48.5%;
+    }
 
 
+.section-title{
+    font-size: 1.8rem;
+text-align: center;
+display: block;
 
+}
 
 
 
