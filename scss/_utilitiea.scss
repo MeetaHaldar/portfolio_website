@@ -1,0 +1,68 @@
+.container{
+    max-width: $website-width;
+    padding: 0  15px ;
+    margin: auto;
+    overflow: hidden;
+}
+
+// button
+%btn-share{
+    display: inline-block;
+    padding:0.8rem 2rem;
+    transition: all 0.5s;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+   
+}
+
+.btn{
+    &-main{
+        @extend%btn-share;
+        color: #333;
+        background-color: $main-color;
+    }
+    &-light{
+        @extend%btn-share;
+        color:$dark-color !important;
+        background-color: $light-color;
+        margin-top: 10px;
+    }
+    &-dark{
+        @extend%btn-share;
+        color: #fff;
+        background-color: $dark-color;
+    }
+}
+
+button[class^='btn-']:hover
+,a[class^='btn-']:hover,
+input[class^='btn-']:hover
+{background-color: $main-color;
+
+
+}
+
+.lead{
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+.text-center{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
