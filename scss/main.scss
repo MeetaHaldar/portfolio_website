@@ -1,0 +1,21 @@
+@import 'config';
+
+
+
+
+
+
+// reset
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+body{
+    font-family: 'Dosis', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: $dark-color;
+}
