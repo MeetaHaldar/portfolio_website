@@ -36,11 +36,19 @@ input[class^=btn-]:hover {
 
 .bg-main {
   background: #87e5cf;
-  color: #222;
+  color: set-text-color(#87e5cf);
 }
 .bg-dark {
-  background: #87e5cf;
-  color: #222;
+  background: #333;
+  color: set-text-color(#333);
+}
+.bg-light {
+  background: #f4f4f4;
+  color: set-text-color(#f4f4f4);
+}
+.bg-medium {
+  background: #ccc;
+  color: set-text-color(#ccc);
 }
 
 .lead {
@@ -268,6 +276,33 @@ img {
 #home-c .process-icon:hover .process-step {
   background: #333;
   color: #f4f4f4;
+}
+
+#about-a .about-info {
+  display: grid;
+  grid-template-areas: "imagee bio bio" "aw1 aw2 aw3";
+  grid-gap: 1.2rem;
+}
+#about-a .about-info .bio-image {
+  grid-area: imagee;
+}
+#about-a .about-info .bio {
+  grid-area: bio;
+  border-left: 3px solid #87e5cf;
+  padding: 0.8rem;
+}
+#about-a .about-info .award-1 {
+  grid-area: aw1;
+}
+#about-a .about-info .award-2 {
+  grid-area: aw2;
+}
+#about-a .about-info .award-3 {
+  grid-area: aw3;
+}
+#about-a .about-info .award-1 .fas, #about-a .about-info .award-2 .fas, #about-a .about-info .award-3 .fas {
+  color: #87e5cf;
+  margin: 1rem;
 }
 
 #main-footer {
