@@ -392,6 +392,18 @@ img {
   background: #87e5cf;
 }
 
+#about-c .about-logos {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 2rem;
+}
+
+#about-c .about-logos img {
+  width: 70%;
+}
+
 #main-footer {
   background: #333;
   color: #f4f4f4;
