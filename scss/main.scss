@@ -261,6 +261,26 @@ grid-area: imagee;
         
     }
 }
+// about b
+&-b{
+.progress{
+    overflow: hidden;
+    height: 20px;
+    background: $medium-color;
+    border-radius: 5px;
+    margin-bottom: 0.3rem;
+
+
+    div{
+        height: 100%;
+        // color: $light-color;
+        text-align: center;
+        background: $main-color;
+
+    }
+
+}
+}
 }
 
 
