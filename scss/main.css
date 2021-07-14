@@ -353,6 +353,7 @@ img {
   grid-area: bio;
   border-left: 3px solid #87e5cf;
   padding: 0.8rem;
+  text-align: center;
 }
 
 #about-a .about-info .award-1 {
@@ -402,6 +403,43 @@ img {
 
 #about-c .about-logos img {
   width: 70%;
+}
+
+#about-d .testomonials-box {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 0.2rem;
+}
+
+#about-d .testomonials ul {
+  list-style-type: none;
+  margin-top: 1rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#about-d .testomonials ul li {
+  font-weight: bold;
+}
+
+#about-d .testomonials p {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 0.8rem;
+}
+
+#about-d .testomonials img {
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  margin-right: 0.5rem;
 }
 
 #main-footer {
