@@ -38,7 +38,6 @@ img{
 }
 
 
-
 // main nav
 
 #main-nav{
@@ -83,12 +82,35 @@ a{
     }
      }
     }
+// header inner
 
+    &-inner{background: $bg-image no-repeat 30% 30% /cover;
+        height: 5.5rem;
+        border-bottom: 3px solid $main-color;
+        
+ul{
+    display: flex;
+}
+li{
+    padding: 1rem  1.5rem;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 3px transparent solid;
+    padding-bottom: 0.5rem;
+    transition: border-color  0.5s;
 
-    // &-inner{
+&:hover{
+    border-color: $medium-color;
+
+}
+&.current{
+    border-color: $main-color;
+}}
         
 
-    // }
+    }
 }
 // home section
 #home

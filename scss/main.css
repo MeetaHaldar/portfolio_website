@@ -158,6 +158,30 @@ img {
   font-size: 4rem;
   line-height: 1.2;
 }
+#header-inner {
+  background: url("../dist/img/showcase.jpg") no-repeat 30% 30%/cover;
+  height: 5.5rem;
+  border-bottom: 3px solid #87e5cf;
+}
+#header-inner ul {
+  display: flex;
+}
+#header-inner li {
+  padding: 1rem 1.5rem;
+}
+#header-inner a {
+  text-decoration: none;
+  color: #fff;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  transition: border-color 0.5s;
+}
+#header-inner a:hover {
+  border-color: #ccc;
+}
+#header-inner a.current {
+  border-color: #87e5cf;
+}
 
 #home-a .specials {
   margin-top: 3rem;
