@@ -129,7 +129,7 @@ input[class^='btn-']:hover {
 }
 
 .item::after {
-  content: '';
+  content: "";
   position: absolute;
   display: block;
   background: inherit;
@@ -172,7 +172,7 @@ input[class^='btn-']:hover {
 }
 
 .item-image::before {
-  content: '';
+  content: "";
   display: block;
   padding-top: 75%;
   overflow: hidden;
@@ -232,7 +232,7 @@ input[class^='btn-']:hover {
 }
 
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   line-height: 1.6;
   background-color: #fff;
 }
@@ -247,7 +247,9 @@ ul {
   list-style-type: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   text-transform: uppercase;
 }
 
@@ -284,7 +286,7 @@ img {
 }
 
 #header-home li {
-  padding: 1rem  1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 #header-home a {
@@ -292,8 +294,8 @@ img {
   color: #fff;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.5rem;
-  -webkit-transition: border-color  0.5s;
-  transition: border-color  0.5s;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
 }
 
 #header-home a:hover {
@@ -327,7 +329,7 @@ img {
 }
 
 #header-inner li {
-  padding: 1rem  1.5rem;
+  padding: 1rem 1.5rem;
 }
 
 #header-inner a {
@@ -335,8 +337,8 @@ img {
   color: #fff;
   border-bottom: 3px transparent solid;
   padding-bottom: 0.5rem;
-  -webkit-transition: border-color  0.5s;
-  transition: border-color  0.5s;
+  -webkit-transition: border-color 0.5s;
+  transition: border-color 0.5s;
 }
 
 #header-inner a:hover {
@@ -449,7 +451,7 @@ img {
 #about-a .about-info {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'imagee bio bio' 'aw1 aw2 aw3';
+      grid-template-areas: "imagee bio bio" "aw1 aw2 aw3";
   grid-gap: 1.2rem;
 }
 
@@ -487,7 +489,9 @@ img {
   grid-area: aw3;
 }
 
-#about-a .about-info .award-1 .fas, #about-a .about-info .award-2 .fas, #about-a .about-info .award-3 .fas {
+#about-a .about-info .award-1 .fas,
+#about-a .about-info .award-2 .fas,
+#about-a .about-info .award-3 .fas {
   color: #87e5cf;
   margin: 1rem;
 }
@@ -564,7 +568,7 @@ img {
 #contact-a .text-fields {
   display: -ms-grid;
   display: grid;
-      grid-template-areas: 'name email' 'subject phone' 'message message';
+      grid-template-areas: "name email" "subject phone" "message message";
   grid-gap: 1rem;
   margin-bottom: 1rem;
 }
@@ -605,7 +609,7 @@ img {
   padding: 0.6rem;
 }
 
-#contact-a button[type='submit'] {
+#contact-a button[type="submit"] {
   width: 50%;
 }
 
@@ -677,7 +681,7 @@ img {
     padding: 2rem 0 1rem 0;
   }
   #about-a .about-info {
-        grid-template-areas: 'imagee' 'bio' 'aw1' 'aw2' 'aw3';
+        grid-template-areas: "imagee" "bio" "aw1" "aw2" "aw3";
   }
   #about-c {
     display: none;
@@ -691,7 +695,7 @@ img {
         grid-template-columns: repeat(1, 1fr);
   }
   #contact-a .text-fields {
-        grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';
+        grid-template-areas: "name" "subject" "email" "phone" "message";
   }
   #contact-b .contact-info {
     -ms-grid-columns: (1fr)[1];
