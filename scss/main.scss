@@ -332,7 +332,56 @@ img{
     }
 }
 }
+// contact Page
+#contact{
+    &-a{
+        .text-fields{
+            display: grid;grid-template-areas: 'name email'
+            'subject phone'
+            'message message'
+            ;
+            grid-gap: 1rem;
+            margin-bottom: 1rem;
+           
+// grid areas
 
+.name-input{
+    grid-area: name;
+    
+}
+.subject-input{
+    grid-area: subject;
+}
+
+
+.email-input{
+    grid-area: email;
+}
+
+
+.phone-input{
+    grid-area: phone;
+}
+
+
+.mssg-input{
+    grid-area: message;
+    height: 100px;
+}
+
+
+.text-input{
+    padding: 0.6rem;
+}
+
+        }
+
+        button[type='submit']
+        {
+            width: 50%;
+        }
+    }
+}
 
 
 
