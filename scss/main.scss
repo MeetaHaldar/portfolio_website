@@ -335,6 +335,10 @@ img{
 // contact Page
 #contact{
     &-a{
+        .text-input{
+           outline: $main-color;
+            font-size: 1rem;
+        }
         .text-fields{
             display: grid;grid-template-areas: 'name email'
             'subject phone'
@@ -380,7 +384,23 @@ img{
         {
             width: 50%;
         }
+        button:hover{
+            opacity: 0.9;
+        }
     }
+&-b{
+    .contact-info{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+       
+    }
+    .fas:hover{
+        color: $main-color;
+        cursor: pointer;
+    }
+}
+
+
 }
 
 

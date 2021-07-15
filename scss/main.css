@@ -555,6 +555,11 @@ img {
   margin-right: 0.5rem;
 }
 
+#contact-a .text-input {
+  outline: #87e5cf;
+  font-size: 1rem;
+}
+
 #contact-a .text-fields {
   display: -ms-grid;
   display: grid;
@@ -601,6 +606,22 @@ img {
 
 #contact-a button[type='submit'] {
   width: 50%;
+}
+
+#contact-a button:hover {
+  opacity: 0.9;
+}
+
+#contact-b .contact-info {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+#contact-b .fas:hover {
+  color: #87e5cf;
+  cursor: pointer;
 }
 
 #main-footer {
