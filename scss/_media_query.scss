@@ -1,0 +1,148 @@
+// tablets and smaller
+@media (max-width:800px) {
+    #header-home{
+        height: 32rem;
+        .header-content{
+    padding-top: 5rem;    
+        }
+        
+    }
+   
+}
+
+// smartphones
+@media (max-width:500px) {
+
+      #main-nav{
+          flex-direction: column;
+          align-items: center;
+          li{
+              padding:1rem;
+          }
+       }
+
+       #header{
+           &-home{
+               height: 10rem;
+               border-bottom: 3px solid $main-color;
+               background-position: 20% 30%;
+               .header-content{
+                   display: none;
+
+               }
+           }
+           &-inner{
+               height: 10rem;
+           }
+       }
+
+
+    //    stack grid columns
+    #home-a .specials,
+    #home-b .stats,
+    #home-c .process,
+    #home-d .testomonials{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    #home{
+        &-a{
+            .specials div{
+                padding-bottom: 1rem;
+                border-bottom: 2px solid $light-color;
+            }
+
+            .specials div:last-child
+            {
+                padding-bottom: 0;
+                border-bottom: none;
+            }
+        }
+&-b{
+    .stats div{
+        padding: 2rem 0 1rem 0 ;
+    }}
+
+    }
+
+// about
+ #about{
+     &-a{
+         .about-info{
+             grid-template-areas:
+             'imagee'
+             'bio'
+             'aw1'
+             'aw2'
+             'aw3'  ;
+         }
+     }
+
+     &-c{
+         display: none;
+     }
+     &-d{
+         .testomonials{
+             &-box{
+                 grid-template-columns: repeat(1,1fr);
+             }
+         }
+     }
+ }
+
+// work 
+
+
+.items{
+    grid-template-columns: repeat(1,1fr);
+   
+}
+
+// contact
+#contact{
+    &-a{
+        .text-fields{
+            grid-template-areas: 
+            'name'
+            'subject'
+            'email'
+            'phone'
+            'message'  ;
+        }
+    }
+    &-b{
+
+
+
+        .contact-info{
+            grid-template-columns: repeat(1,1fr);
+            grid-gap: 1.4rem;
+        }
+    }
+}
+
+
+
+    // footer
+    #main-footer{
+       .social .fab{
+           margin-bottom: 1rem;
+       }
+        .footer-content{
+           flex-direction: column;
+     
+        }
+    }
+}
+
+// landscape
+@media (max-height:580px) {
+    #header-home{
+        .header-content{
+            h1{
+                font-size: 2rem;
+            }
+        }
+    }
+    
+}

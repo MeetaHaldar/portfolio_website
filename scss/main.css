@@ -558,6 +558,7 @@ img {
 #contact-a .text-input {
   outline: #87e5cf;
   font-size: 1rem;
+  border: 2px solid #ccc;
 }
 
 #contact-a .text-fields {
@@ -622,6 +623,96 @@ img {
 #contact-b .fas:hover {
   color: #87e5cf;
   cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  #header-home {
+    height: 32rem;
+  }
+  #header-home .header-content {
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-nav {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #main-nav li {
+    padding: 1rem;
+  }
+  #header-home {
+    height: 10rem;
+    border-bottom: 3px solid #87e5cf;
+    background-position: 20% 30%;
+  }
+  #header-home .header-content {
+    display: none;
+  }
+  #header-inner {
+    height: 10rem;
+  }
+  #home-a .specials,
+  #home-b .stats,
+  #home-c .process,
+  #home-d .testomonials {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #home-a .specials div {
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f4f4f4;
+  }
+  #home-a .specials div:last-child {
+    padding-bottom: 0;
+    border-bottom: none;
+  }
+  #home-b .stats div {
+    padding: 2rem 0 1rem 0;
+  }
+  #about-a .about-info {
+        grid-template-areas: 'imagee' 'bio' 'aw1' 'aw2' 'aw3';
+  }
+  #about-c {
+    display: none;
+  }
+  #about-d .testomonials-box {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  .items {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+  }
+  #contact-a .text-fields {
+        grid-template-areas: 'name' 'subject' 'email' 'phone' 'message';
+  }
+  #contact-b .contact-info {
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-gap: 1.4rem;
+  }
+  #main-footer .social .fab {
+    margin-bottom: 1rem;
+  }
+  #main-footer .footer-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (max-height: 580px) {
+  #header-home .header-content h1 {
+    font-size: 2rem;
+  }
 }
 
 #main-footer {
